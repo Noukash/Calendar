@@ -18,7 +18,8 @@
         <activity android:name=".Choose_where" />
         <activity android:name=".Search_result" />
         <activity android:name=".Choose_why" />
-        <activity android:name=".Choose_when"></activity>
+        <activity android:name=".Choose_when" />
+        <activity android:name=".Event"></activity>
     </application>
 
 </manifest>

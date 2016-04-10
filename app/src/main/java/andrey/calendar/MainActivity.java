@@ -11,6 +11,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -28,6 +29,13 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         helper.setCountries(getApplicationContext());
+        DbOpenHelper dbhelper=new DbOpenHelper(this);
+        SQLiteDatabase mDB=dbhelper.getReadableDatabase();
+        Cursor mycursor=mDB.query(dbhelper.DB_TABLE,null,null,null,null,null,null);
+        for (int i=0;i<mycursor.getColumnCount();i++){
+            Log.d("happy",mycursor.getColumnName(i));
+
+        }
 
 
 

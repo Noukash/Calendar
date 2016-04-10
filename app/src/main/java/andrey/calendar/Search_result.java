@@ -14,6 +14,7 @@ SQLiteDatabase mDb;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_result);
+        /*
         ImageView kartinka=(ImageView)findViewById(R.id.Eventimage);
         TextView text=(TextView) findViewById(R.id.EventText);
         MainActivity x=new MainActivity();
@@ -29,6 +30,7 @@ SQLiteDatabase mDb;
         text.setText(newCursor.getString(7));
         kartinka.setImageResource(newCursor.getInt(6));
         mDb.close();
+        */
 
     }
 }
