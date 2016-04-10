@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="Country_France">Франция</string>
+    <string name="Country_Spain">Испания</string>
+    <string name="Country_China">Китай</string>
+    <string name="Country_Germany">Германия</string>
+    <string name="Country_Thailand">Таиланд</string>
+    <string name="Country_Italy">Италия</string>
+    <string name="Country_Greece">Греция</string>
+    <string name="Country_Israel">Израиль</string>
+    <string name="Country_Bulgary">Болгария</string>
+    <string name="Country_Chernogoriya">Черногория</string>
+    <string name="Country_Czech">Чехия</string>
+    <string name="Country_Vietnam">Вьетнам</string>
+    <string name="Country_India">Индия</string>
+    <string name="Country_Emirates">Арабские Эмираты</string>
+    <string name="Country_Horvatia">Хорватия</string>
+    <string name="Country_Russia">Россия</string>
+</resources>
